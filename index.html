@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="./logo.png" class="logo">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PRODUCT</li>
+                <li>CONTACT</li>
+
+            </ul>
+        </nav>
+    </div>
+    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi esse aspernatur dignissimos, pariatur eos suscipit omnis eaque ipsum quos non commodi molestias enim reiciendis adipisci. Blanditiis velit ex deserunt in.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores nisi dolores voluptatibus architecto ipsa, inventore est recusandae amet alias pariatur adipisci fugit cupiditate et at quo vero deserunt praesentium!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, sapiente magni doloribus reiciendis facilis fugit, sunt nesciunt velit suscipit possimus eaque, repudiandae esse laudantium delectus fugiat est natus laboriosam unde?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet dicta, alias architecto deserunt voluptatum. Eius, quaerat. Nulla officia magnam, incidunt enim optio quo amet consectetur. Quam consequuntur natus deleniti!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde, ex inventore praesentium asperiores necessitatibus suscipit aspernatur! Alias saepe optio molestias reprehenderit molestiae iure, eos deleniti temporibus quod doloribus voluptates?
+    </p>
+    <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi esse aspernatur dignissimos, pariatur eos suscipit omnis eaque ipsum quos non commodi molestias enim reiciendis adipisci. Blanditiis velit ex deserunt in.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores nisi dolores voluptatibus architecto ipsa, inventore est recusandae amet alias pariatur adipisci fugit cupiditate et at quo vero deserunt praesentium!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, sapiente magni doloribus reiciendis facilis fugit, sunt nesciunt velit suscipit possimus eaque, repudiandae esse laudantium delectus fugiat est natus laboriosam unde?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet dicta, alias architecto deserunt voluptatum. Eius, quaerat. Nulla officia magnam, incidunt enim optio quo amet consectetur. Quam consequuntur natus deleniti!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde, ex inventore praesentium asperiores necessitatibus suscipit aspernatur! Alias saepe optio molestias reprehenderit molestiae iure, eos deleniti temporibus quod doloribus voluptates?
+    </p> <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi esse aspernatur dignissimos, pariatur eos suscipit omnis eaque ipsum quos non commodi molestias enim reiciendis adipisci. Blanditiis velit ex deserunt in.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores nisi dolores voluptatibus architecto ipsa, inventore est recusandae amet alias pariatur adipisci fugit cupiditate et at quo vero deserunt praesentium!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, sapiente magni doloribus reiciendis facilis fugit, sunt nesciunt velit suscipit possimus eaque, repudiandae esse laudantium delectus fugiat est natus laboriosam unde?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet dicta, alias architecto deserunt voluptatum. Eius, quaerat. Nulla officia magnam, incidunt enim optio quo amet consectetur. Quam consequuntur natus deleniti!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde, ex inventore praesentium asperiores necessitatibus suscipit aspernatur! Alias saepe optio molestias reprehenderit molestiae iure, eos deleniti temporibus quod doloribus voluptates?
+    </p> <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi esse aspernatur dignissimos, pariatur eos suscipit omnis eaque ipsum quos non commodi molestias enim reiciendis adipisci. Blanditiis velit ex deserunt in.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime asperiores nisi dolores voluptatibus architecto ipsa, inventore est recusandae amet alias pariatur adipisci fugit cupiditate et at quo vero deserunt praesentium!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, sapiente magni doloribus reiciendis facilis fugit, sunt nesciunt velit suscipit possimus eaque, repudiandae esse laudantium delectus fugiat est natus laboriosam unde?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque eveniet dicta, alias architecto deserunt voluptatum. Eius, quaerat. Nulla officia magnam, incidunt enim optio quo amet consectetur. Quam consequuntur natus deleniti!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde, ex inventore praesentium asperiores necessitatibus suscipit aspernatur! Alias saepe optio molestias reprehenderit molestiae iure, eos deleniti temporibus quod doloribus voluptates?
+    </p>
+
+
+
+    <script>
+        var navbar = document.getElementById("navbar")
+        var menu = document.getElementById("menu")
+
+
+
+        window.onscroll = function(){
+            if(window.pageYOffset >=menu.offsetTop){
+                navbar.classList.add("sticky");
+            }
+            else{
+                navbar.classList.remove("sticky");
+
+            }
+        }
+
+
+
+    </script>
+</body>
+</html>
